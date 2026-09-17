@@ -23,4 +23,5 @@ def Register(studentinfo:StudentStruct):
     with open("AllStudents.json","w") as f2:
         json.dump(alldata,f2)
     return {"message":"new student created"}
+
     
